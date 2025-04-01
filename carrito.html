@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Madisson Beauty</title>
+    <link rel="shortcut icon" href="/img/Logo.jpg" type="image/x-icon" />
+    <!--ICONOS-->
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <!--Fuentes Externas-->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="carrito.css"> <!-- Enlace a tu archivo CSS -->
+</head>
+<body>
+
+    
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-soft-pink shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Madisson Beauty</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#nosotros">Sobre Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="carrito.html" target="_blank"><i class="fa-solid fa-cart-shopping fa-beat-fade" style="color: #ec2f58;"></i></a></li>
+                
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <main>
+        <section id="carrito">
+            <div id="carrito-container">
+                <!-- Aquí se mostrarán los productos del carrito -->
+            </div>
+
+            <aside id="resumen">
+                <h2>Resumen del pedido</h2>
+                <div id="resumen-productos">
+                    <!-- Aquí se mostrarán los productos con descripción, cantidad y precio total -->
+                </div>
+                <hr>
+                <p>Subtotal: <span id="subtotal">$0</span></p>
+                <p>Descuento (-10%): <span id="descuento">$0</span></p>
+                <p>Costo de delivery: <span id="delivery">$10</span></p>
+                <hr>
+                <h3>Total: <span id="total">$0</span></h3>
+                
+
+
+                <button id="pagar">Ir a pagar →</button>
+            </aside>
+        </section>
+    </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Compañía</h3>
+                    <ul>
+                        <li>Sobre nosotros</li>
+                        <li>Características</li>
+                        <li>Trabajos</li>
+                        <li>Carrera</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Ayuda</h3>
+                    <ul>
+                        <li>Atención al cliente</li>
+                        <li>Detalles de entrega</li>
+                        <li>Términos y condiciones</li>
+                        <li>Política de privacidad</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Preguntas Frecuentes</h3>
+                    <ul>
+                        <li>Cuenta</li>
+                        <li>Gestionar envíos</li>
+                        <li>Pedidos</li>
+                        <li>Pagos</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Información de Contacto</h3>
+                    <ul>
+                        <li>📍 Calle las avellanas, San Isidro 15331</li>
+                        <li>📞 +51 923475234</li>
+                        <li>✉️ MadBeau@hotmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-icons">
+                <img src="img/Pagos/Apay.png" alt="Visa">
+                <img src="img/Pagos/Gplay.png" alt="MasterCard">
+                <img src="img/Pagos/MasterCard.png" alt="PayPal">
+                <img src="img/Pagos/PayPal.png" alt="Apple Pay">
+                <img src="img/Pagos/Visa.png" alt="Google Pay">
+            </div>
+            <hr>
+            <p>Madisson Beauty © 2025, All Rights Reserved</p>
+        </footer>
+
+    <script src="carrito.js"></script> <!-- Enlace a tu archivo JS -->
+</body>
+</html>

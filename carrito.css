@@ -53,7 +53,21 @@ body {
 /* Ícono del carrito */
 .navbar-nav .nav-link:last-child {
     font-size: 1.1rem;
+    position: relative;
+    display: inline-block;
 }
+
+.contador-carrito {
+    position: absolute;
+    top: -8px; /* Puedes ajustar estos valores para que se acomode mejor */
+    right: -8px;
+    background-color: #ec2f58;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+  }
 
 /* Botón del menú hamburguesa */
 .navbar-toggler {

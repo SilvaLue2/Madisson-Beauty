@@ -88,7 +88,21 @@ h1, h2 {
 /* Ícono del carrito */
 .navbar-nav .nav-link:last-child {
     font-size: 1.1rem;
+    position: relative;
+    display: inline-block;
 }
+
+.contador-carrito {
+    position: absolute;
+    top: -8px; /* Puedes ajustar estos valores para que se acomode mejor */
+    right: -8px;
+    background-color: #ec2f58;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+  }
 
 /* Botón del menú hamburguesa */
 .navbar-toggler {
@@ -209,7 +223,7 @@ h1, h2 {
 
 .card {
     flex: 0 0 calc(25% - 10px); /* 4 cartas visibles */
-    background: #fff;
+    background: #f1dee9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px;
@@ -315,13 +329,8 @@ h1, h2 {
     text-align: center;
     margin: 20px;
 }
-.benefit-item img {
-    width: 110px;
-    height: 110px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.benefit-item h3 {
+
+.benefit-item h3 {  
     margin-top: 20px;
     font-size: 1.3rem;
     color: #e91e63;
@@ -331,11 +340,37 @@ h1, h2 {
     color: #333;
 }
 
+.fa-solid.fa-truck{
+    font-size: 60px;
+}
+.fa-solid.fa-leaf{
+    font-size: 60px;
+}
+.fa-solid.fa-arrow-rotate-left{
+    font-size: 60px;
+}
+.fa-solid.fa-lock{
+    font-size: 60px;
+}
+
+
+
+
 .opiniones {
     text-align: center;
     font-family: Arial, sans-serif;
     padding: 20px;
 }
+.opiniones p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    color: #fff7f9;
+
+}
+
+
+
 .opinion-container {
     display: flex;
     justify-content: center;
